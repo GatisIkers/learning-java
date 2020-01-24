@@ -13,16 +13,8 @@ public class Char implements Comparable<Char> {
         return theChar;
     }
 
-    public void setTheChar(char theChar) {
-        this.theChar = theChar;
-    }
-
     public int getCount() {
         return count;
-    }
-
-    public void setCount(int count) {
-        this.count = count;
     }
 
     public void incrementCount() {

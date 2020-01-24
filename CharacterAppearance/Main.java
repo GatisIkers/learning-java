@@ -34,7 +34,6 @@ public class Main {
         for (Map.Entry<Character, Integer> entry : sorted.entrySet()) {
             System.out.println("Char: " + entry.getKey() + " - " + entry.getValue() + " times");
         }
-//        new TreeMap<>(hashMap).forEach((key, value) -> System.out.println("Char: " + key + " - " + value + " times"));
     }
 
     public static void findCharsWithArray(char[] chars) {
@@ -76,7 +75,6 @@ public class Main {
         }
 
         Collections.sort(charArrayList);
-//        arrayList.forEach((charr) -> System.out.println("Char: " + charr.getTheChar() + " - " + charr.getCount() + " times"));
         for (Char aChar : charArrayList) {
             System.out.println("Char: " + aChar.getTheChar() + " - " + aChar.getCount() + " times");
         }
